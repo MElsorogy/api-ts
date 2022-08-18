@@ -1,9 +1,64 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "Users": [
+    {
+      "id": 1,
+      "Name": "Test Engineer",
+      "Email": "test1@gmail.com",
+      "PostID": 1
+    },
+    {
+      "id": 2,
+      "Name": "Soft Engineer",
+      "Email": "test2@gmail.com"
+    },
+    {
+      "id": 3,
+      "Name": "Devops Engineer",
+      "Email": "test3@gmail.com"
+    },
+    {
+      "id": 4,
+      "Name": "Telecom Engineer",
+      "Email": "test4@gmail.com"
+    },
+    {
+      "id": 5,
+      "Name": "Site Engineer",
+      "Email": "test5@gmail.com"
+    },
+    {
+      "Users": [
+        {
+          "id": 1,
+          "Name": "Test Engineer",
+          "Email": "test1@gmail.com",
+          "PostID": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "Users": [
+        {
+          "id": 1,
+          "Name": "Test Engineer",
+          "Email": "test1@gmail.com",
+          "PostID": 1
+        }
+      ],
+      "id": 7
+      //tetsaya 
+
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
